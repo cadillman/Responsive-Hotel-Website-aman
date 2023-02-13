@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Clinton's</title>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
+
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"><span>C</span>linton's</a>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div class="icons"><i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="Search Here...">
+                <label for="search-bar"class="fas fa-search"></label>
+            </form>
+        </header>
+
+        <!--heder section ends-->
+        <!--login form starts-->
+
+        <div class="login-form-container"> 
+            <i class="fas fa-times" id="form-close"></i>
+            <form action="">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="Enter your E-mail ID">
+                <input type="password" class="box" placeholder="Enter your Password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember</label>
+                <p>Forget Password? <a href="#">Click Here</a></p>
+                <p>Don't have an account? <a href="#">Signup</a></p>
+            </form>
+        </div>
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>W<span>elcome</span> <span>to </span>C<span>linton's</span></h3>
+                <p>Make yourself Comfortable anywhere around the World</p>
+                <a href="#" class ="btn">discover more</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="img/vid-5.mp4"></span>
+                <span class="vid-btn " data-src="img/vid-2.mp4"></span>
+                <span class="vid-btn " data-src="img/vid-1.mp4"></span>
+            </div>
+
+            <div class="video-container">
+                <video src="img/vid-5.mp4" id="video-slider" loop  autoplay muted></video>
+            </div>
+        </section>
+        
+
+
+
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+                <div class="img">
+                    <img src="img/img-1.jpg" alt="" >
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <h3>Which City you want us to serve you?</h3>
+                        <input type="text" placeholder="Place Name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>How many Guest?</h3>
+                        <input type="number" placeholder="Number of Guest">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Check-In Day</h3>
+                        <input type="Date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Check-Out Day</h3>
+                        <input type="Date">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+            </div>
+        </section>
+
+
+        <!-- packaage section starts -->
+
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+            
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/img-2.jpeg" alt="">
+                    <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Sydney, Australia</h3>
+                    <p>Sydney, best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. Sydney Tower’s outdoor platform, the Skywalk, offers 360-degree views of the city and suburbs.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $290.00 <span>$450.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/img-3.jpg" alt="">
+                <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Toronto, Canada</h3>
+                <p>Toronto, the capital of the province of Ontario, is a major Canadian city along Lake Ontario’s northwestern shore. It's a dynamic metropolis with a core of soaring skyscrapers, all dwarfed by the iconic, free-standing CN Tower. Toronto also has many green spaces, from the orderly oval of Queen’s Park to 400-acre High Park and its trails, sports facilities and zoo.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/img-4.jpeg" alt="">
+            <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> San Fransisco, United States</h3>
+            <p>One of the top tourist destinations in the United States, San Francisco is known for its steep rolling hills and eclectic mix of architecture across varied neighborhoods, as well as its cool summers, fog, and landmarks, including the Golden Gate Bridge, cable cars, Alcatraz, and Chinatown and Mission districts.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> $140.00 <span>$180.00</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/img-5.jpg" alt="">
+        <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Mumbai, India</h3>
+        <p>Beaches are a major tourist attraction in the city. The major beaches in Mumbai are Girgaum Chowpatty, Juhu Beach, Dadar Chowpatty, Gorai Beach, Marve Beach, Versova Beach, Madh Beach, Aksa Beach, and Manori Beach. Most of the beaches are unfit for swimming, except Girgaum Chowpatty and Juhu Beach. Essel World is a theme park and amusement centre situated close to Gorai Beach, and includes Asia's largest theme water park, Water Kingdom. Adlabs Imagica opened in April 2013 is located near the city of Khopoli off the Mumbai-Pune Expressway.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> $40.00 <span>$100.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="img/img-6.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> London, Great Britain</h3>
+    <p>London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> $170.00 <span>$220.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+
+
+<div class="box">
+    <img src="img/img-7.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Paris, France</h3>
+    <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> $180.00 <span>$230.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="img/img-8.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Singapore</h3>
+    <p>Singapore is more than its tourist attractions. It’s constantly evolving, reinventing, and reimagining itself, with people who are passionate about creating new possibilities. It’s not just about what you can do here, it’s about what you can be.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> $190.00 <span>$250.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+
+<div class="box">
+    <img src="img/img-9.jpeg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Thailand</h3>
+    <p>It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew). Nearby beach resorts include bustling Pattaya and fashionable Hua Hin.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> $80.00 <span>$110.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+
+<div class="box">
+    <img src="img/img-10.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Maldives</h3>
+    <p>Comprising of 26 atolls (ring-shaped coral reef that encircles a lagoon), the Maldives is renowned for its incredible diving opportunities, Maldives' azure waters are home to diverse marine life and corals of distinct hues.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> $100.00 <span>$140.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+            </div>
+        </section>
+
+        <!-- package section ends -->
+
+        <!-- Service Section starts -->
+
+        <section class="services" id="services">
+            <h1 class="heading">
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Affordable Hotels</h3>
+                    <p>Book Cheap Hotels Online. No reservation costs. Great rates. Become An Affiliate. Sign Up For Deals. Register Online. List Your Property. Highlights: Safety Resource Center Available, Make Changes Online To Your Booking.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food and Drinks</h3>
+                    <p> We make it easy to eat clean, plant-rich, and highly-nutritious food and drink to keep you nourished throughout the day.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Safety Guide</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>Around the world</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>Fastest Travel</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventure</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+            </div>
+
+        </section>
+
+        
+
+
+
+
+
+        <!-- Service section ends -->
+
+<!-- Gallery section starts -->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+<div class="box-container" id="">
+    <div class="box">
+        <img src="img/img-11.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-12.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-13.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-14.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-15.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-16.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-17.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-18.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-19.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Gallery section ends -->
+
+<!-- Review section starts -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-20.jpg" alt="">
+                    <h3>Edward bey</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-21.jpeg" alt="">
+                    <h3>Edward bey</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-22.jpeg" alt="">
+                    <h3>Edward bey</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-24.jpg" alt="">
+                    <h3>Edward bey</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <div class="img">
+            <img src="img/img-25.png" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+              <input type="text" placeholder="name">  
+              <input type="email" placeholder="email">  
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">  
+                <input type="text" placeholder="subject">  
+              </div>
+
+              <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+              <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<!-- brand section -->
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img src="img/6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<!-- footer section -->
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Totam natus asperiores voluptas aliquam vitae odio. Beatae doloribus facere nostrum magni.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">USA</a>
+            <a href="#">india</a>
+            <a href="#">japan</a>
+            <a href="#">philippines</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">package</a>
+            <a href="#">service</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">book</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">likedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span>Aman Chaddha</span> | all rights reserved!! </h1>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
